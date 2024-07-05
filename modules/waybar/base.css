@@ -58,6 +58,3 @@
 #window {
     padding: 0 5px;
 }
-#tags button:not(.occupied):not(.focused) {
-	style: hidden;
-}
