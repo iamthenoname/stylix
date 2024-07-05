@@ -15,8 +15,8 @@ place: ''
   .modules-${place} #tags button.occupied {
       background: @base03;
   }
-  .modules-${place} #workspaces button.urgent {
-  .modules-${place} #tags button.urgent
+  .modules-${place} #workspaces button.urgent,
+  .modules-${place} #tags button.urgent {
       background-color: @base08;
   }
   .modules-${place} #wireplumber.muted,
