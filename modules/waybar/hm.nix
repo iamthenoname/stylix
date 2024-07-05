@@ -9,8 +9,7 @@ let
     }
     .modules-${place} #workspaces button.focused,
     .modules-${place} #workspaces button.active,
-    .modules-${place} #tags button.focused,
-    .modules-${place} #tags button.active {
+    .modules-${place} #tags button.occupied {
         border-bottom: 3px solid @base05;
     }
   '';
