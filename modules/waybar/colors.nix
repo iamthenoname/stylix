@@ -1,5 +1,6 @@
 place: ''
-  window .modules-${place} #workspaces button {
+  window .modules-${place} #workspaces button,
+  window .modules-${place} #tags button {
       background-color: @base07;
       color: @base00;
   }
@@ -10,10 +11,13 @@ place: ''
       color: @base00;
   }
   .modules-${place} #workspaces button.focused,
-  .modules-${place} #workspaces button.active {
+  .modules-${place} #workspaces button.active,
+  .modules-${place} #tags button.focused,
+  .modules-${place} #tags button.occupied {
       background: @base03;
   }
   .modules-${place} #workspaces button.urgent {
+  .modules-${place} #tags button.urgent
       background-color: @base08;
   }
   .modules-${place} #wireplumber.muted,
