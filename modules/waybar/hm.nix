@@ -3,11 +3,14 @@ with config.lib.stylix.colors.withHashtag;
 with config.stylix.fonts;
 let
   colorlessModules = place: ''
-    .modules-${place} #workspaces button {
+    .modules-${place} #workspaces button, 
+    .modules-${place} #tags button {
         border-bottom: 3px solid transparent;
     }
     .modules-${place} #workspaces button.focused,
-    .modules-${place} #workspaces button.active {
+    .modules-${place} #workspaces button.active,
+    .modules-${place} #tags button.focused,
+    .modules-${place} #tags button.active {
         border-bottom: 3px solid @base05;
     }
   '';
