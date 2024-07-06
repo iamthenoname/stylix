@@ -12,7 +12,7 @@ place: ''
   }
   .modules-${place} #workspaces button.focused,
   .modules-${place} #workspaces button.active,
-  .modules-${place} #tags button.occupied {
+  .modules-${place} #tags button.focused {
       background: @base03;
   }
   .modules-${place} #workspaces button.urgent,
